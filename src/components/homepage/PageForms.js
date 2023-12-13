@@ -1,6 +1,6 @@
 'use client'
 
-import Form from '../components/Form.js'
+import Form from '../Form.js'
 
 export default function PageForms() {
   let signUpData = {

@@ -83,6 +83,7 @@ export async function DELETE(req) {
   const body = await req.json()
 
   // if body.password != admin_password, return error, admin password incorrect
+  console.log('username = ' + body.username)
   if (body.password != admin_password) {
     return new Response('Admin password is incorrect', {
       status: 401
@@ -92,6 +93,7 @@ export async function DELETE(req) {
   // search database for entry where username = body.username
   const rows = readUser(body.username)
 
+  console.log('rows = ' + rows)
   // if entry not found, return error, user does not exist
   if (rows.length == 0) {
     return new Response('User does not exist', {

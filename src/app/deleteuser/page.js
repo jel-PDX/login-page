@@ -1,7 +1,7 @@
 'use client'
 
-import PageHeader from './pageheader/PageHeader.js'
-import Form from '../components/Form.js'
+import PageHeader from '../../components/deleteuser/PageHeader.js'
+import Form from '../../components/Form.js'
 
 export default function Page() {
   let deleteUserData = {
@@ -16,8 +16,8 @@ export default function Page() {
       })
       
       if (response.ok){
-        alert('User has been deleted-- Press OK to refresh the page')
-        window.location.reload()      
+        alert('User has been deleted-- Press OK to return to the home page')
+        window.location.href=".."
       } 
       else if (response.status == 401){
           alert('Failed to delete user-- Admin password is incorrect')

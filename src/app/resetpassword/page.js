@@ -1,7 +1,7 @@
 'use client'
 
-import PageHeader from './pageheader/PageHeader.js'
-import Form from '../components/Form.js'
+import PageHeader from '../../components/resetpassword/PageHeader.js'
+import Form from '../../components/Form.js'
 
 export default function Page() {
 

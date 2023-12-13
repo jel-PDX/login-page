@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import PageHeader from './pageheader/PageHeader.js'
-import PageForms from './pageforms/PageForms.js'
+import PageHeader from '../components/homepage/PageHeader.js'
+import PageForms from '../components/homepage/PageForms.js'
 
 export default function MyApp() {
   return (
