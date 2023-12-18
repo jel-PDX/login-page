@@ -8,6 +8,8 @@ export async function GET(req) {
 
   // search database for entry where username = username_arg 
   const rows = readUser(username_arg)
+  console.log('reading rows in GET = ')
+  console.log(rows)
 
   // if entry not found, return error, user does not exist
   if (rows.length == 0) {
@@ -35,7 +37,7 @@ export async function POST(req) {
   const body = await req.json()
 
   // search database for entry where username = body.username
-  const rows  =  readUser(body.username)
+  const rows = readUser(body.username)
 
   // if entry found, return error, user already exists
   if (rows.length > 0) {
