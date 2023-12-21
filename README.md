@@ -1,6 +1,6 @@
 # Demo Video
 
-*Note: the version used in the demo video uses real MySQL database, whereas the project contained within this repo mocks a database using a json file*
+*Note: the version used in the demo video uses a real MySQL database, whereas the project contained within this repo mocks a database using a json file*
 
 **Link:** [demo video](https://www.youtube.com/watch?v=S_4tods2f7o)
 
