@@ -8,7 +8,7 @@
 
 First, git init in a new directory, and then pull the repo:
 
-```
+```bash
 git init
 # then
 git pull https://github.com/jel-PDX/login-page.git
