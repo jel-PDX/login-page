@@ -1,8 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Demo Video
 
-## Getting Started
+*Note: the version used in the demo video uses real MySQL database, whereas the project contained within this repo mocks a database using a json file*
 
-First, run the development server:
+**Link:** [demo video](https://www.youtube.com/watch?v=S_4tods2f7o)
+
+# How to run this project
+
+First, git init in a new directory, and then pull the repo:
+
+```
+git init
+# then
+git pull https://github.com/jel-PDX/login-page.git
+# or
+git pull git@github.com:jel-PDX/login-page.git
+# or some other method, like github CLI, etc...
+```
+
+Then, in the top-level directory, run the development server:
 
 ```bash
 npm run dev
@@ -14,13 +29,9 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Lastly, to view the webpage, open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
+# Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
