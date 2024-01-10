@@ -6,14 +6,14 @@
 
 # How to run this project
 
-First, git init in a new directory, and then pull the repo:
+First, git init in a new directory, and then clone this repo:
 
 ```bash
 git init
 # then
-git pull https://github.com/jel-PDX/login-page.git
+git clone https://github.com/jel-PDX/login-page.git
 # or
-git pull git@github.com:jel-PDX/login-page.git
+git clone git@github.com:jel-PDX/login-page.git
 # or some other method, like github CLI, etc...
 ```
 
