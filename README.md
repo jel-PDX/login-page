@@ -6,11 +6,9 @@
 
 # How to run this project
 
-First, git init in a new directory, and then clone this repo:
+First, Clone this repo:
 
 ```bash
-git init
-# then
 git clone https://github.com/jel-PDX/login-page.git
 # or
 git clone git@github.com:jel-PDX/login-page.git
