@@ -15,7 +15,9 @@ git clone git@github.com:jel-PDX/login-page.git
 # or some other method, like github CLI, etc...
 ```
 
-Then, in the top-level directory, run the development server:
+Then, in the top-level directory, run `npm install` (install node.js & npm if you haven't already)
+
+Then, also in the top-level directory, run the development server:
 
 ```bash
 npm run dev
